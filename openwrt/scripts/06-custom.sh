@@ -7,6 +7,9 @@
 # openlist - add new package
 git clone https://$github/sbwml/luci-app-openlist2 package/new/openlist
 
+# momo - add new package
+git clone https://github.com/nikkinikki-org/OpenWrt-momo package/new/momo
+
 # lrzsz - add patched package
 rm -rf feeds/packages/utils/lrzsz
 git clone https://$github/sbwml/packages_utils_lrzsz package/new/lrzsz
